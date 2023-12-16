@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Dawning+of+a+New+Day&family=Gochi+Hand&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Orbitron:wght@400;500;600;700;800;900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,600&family=Raleway:wght@100;200;300;400&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Wallpoet&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root{
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Orbitron', sans-serif;
+
+    color:#DB9C54;
+    color: #000000;
+    color: #2E3851;
+    color: #F5F5F5;
+}
+
+/*==============- body img -=============*/
+
+
+
+ .g{
+    position: absolute;
+    top: -2.5rem;
+}
+
+.b{
+    position: absolute;
+    right: 0;
+}
+/*============== end body img ===============*/
+
+/*============== main ===============*/
+
+.main-home{
+    position: relative;
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-left: 70px;
+    width: 100%;
+    height: 100vh;
+}   
+.main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    height: 45rem;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #2E3851;
+}
+
+.main h2{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 500;
+    font-size: 100px;
+    color: #DB9C54;
+    margin: auto;
+}
+
+.ma{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.ni{
+    display: grid;
+    gap: 20px;
+}
+.color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.color span{
+    
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 15px;
+}
+
+.color .black{
+    background-color: #000000;
+}
+
+.color .blue{
+    background-color: #2E3851;
+}
+
+.color .gold{
+    background-color: #DB9C54;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+.pay p{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.sr{
+    display: flex;
+}
+
+.sr b{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    color: #F5F5F5;
+}
+
+.star{
+    position: absolute;
+    display: flex;
+    top: 40.7rem;
+    left: 16.5rem;
+    
+}
+
+.star i{
+    font-size: 33px;
+    color: #DB9C54;
+}
+
+/*=============== main right=====*/
+
+.main-right{
+    display: grid;
+    
+}
+
+.thu{
+    margin: auto;
+    font-size: 40px;
+    letter-spacing: 4.4px;
+    color: #D5D5D4;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 3rem;
+    font-size: 55px;
+    color: #DB9C54;
+}
+
+.price p{
+    color: #D5D5D4;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.tex{
+    color: #D5D5D4;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.inp{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    width: 25rem;
+    background-color: #F5F5F5;
+}
+
+.inp input{
+    display: flex;
+    background-color: #F5F5F5;
+    border: none;
+    width: 25rem;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+     transition: 0.0s;
+     outline: none;
+    
+}
+
+.inp input:focus{
+    border: 1px solid #F5F5F5;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 15px;
+}
+
+.logo .us{
+    background-color: #DB9C54;
+    color: #000000;
+}
+
+.logo .ba{
+    background-color: #000000;
+    color: #DB9C54;
+}
+
+.logo .hr{
+    background-color: #D5D5D4;
+    color: #2E3851;
+}
+
+.logo .hr,.ba,.us i{
+font-size: 35px;
+}
+
+.n-s{
+        display: flex;
+        width: 35rem;
+        height: 3.3rem;
+        background-color: #F5F5F5;
+        overflow: hidden;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.slider img{
+    height: 35px;
+}
+
+.slider p{
+    font-size: 20px;
+    width: 9rem;
+    font-weight: 600;
+    color: #DB9C54;
+    letter-spacing: 5px;
+    
+}
+
+
+.sho-img{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    height: 40rem;
+    margin-top: 60px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.sho-img img{
+    width: 50rem;
+    height: 40rem;
+}
+
+
+
+/*--------- my --------*/
+
+.my{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52.5rem;
+    height: 4rem;
+    border-top: 1px solid #000000;
+}
+
+.my .logo{
+    position: absolute;
+    padding: 0px 15px 0px 15px;
+    background-color: #ffffff;
+    top: -30px;
+   
+}
+
+.im{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 50rem;
+    height: 5rem;
+    z-index: 5;
+    
+}
+
+.im img{
+    width: 13rem;
+    height: 8rem;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.im button{
+    width: 13rem;
+    height: 8rem;
+    border-radius: 10px;
+    z-index: 10;
+    border: 2px solid #D5D5D4;
+    background-color: #2E3851;
+}
+
+/*==============- animation -=============*/
+
+@keyframes moveRightToLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .n-s .slider {
+    animation: moveRightToLeft 10s linear infinite;
+  }
+  
